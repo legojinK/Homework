@@ -30,7 +30,7 @@ public class First25thController {
         @RequestMapping("/test")
         public String test (Model model) {
             logger.info("client entered /test");
-//dlfeks일단 땡겨오고 그리고 제가 홈워크 파일을 잘 만들었는지 모르겠어요25th라고 했는데 그게 곗속 지웠다해서 안만들어지네요
+
             int num =3+7;
 
             model.addAttribute("number",num);
