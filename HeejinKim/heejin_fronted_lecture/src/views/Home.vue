@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-        <div id="header">
-            <router-link :to="{ name: 'Home' }"
-                    class="nav-link"
+        <div id="header"> 
+            <router-link :to="{ name: 'Home' }" 
+                    class="nav-link"          
                     active-class="active">
                 Home
             </router-link>
@@ -10,6 +10,11 @@
                     class="nav-link"
                     active-class="active">
                 Test
+            </router-link>
+            <router-link :to="{ name: 'ItemListPage' }"
+                    class="nav-link"
+                    active-class="active">
+                ItemListPage
             </router-link>
         </div>
   </div>
@@ -19,7 +24,7 @@
 // @ is an alias to /src
 //import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
+export default { 
   name: 'Home',
   components: {
   }
